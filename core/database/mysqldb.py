@@ -7,7 +7,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
 from sqlalchemy import delete, select, update
 from constants import MYSQL_URL
-from core.database.base import DBInterface, TableTypes
+from ..database.base import DBInterface, TableTypes
 
 
 class _SqlalchemyManager(DBInterface, TableTypes):

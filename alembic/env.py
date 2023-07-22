@@ -5,7 +5,7 @@ from sqlalchemy import pool
 
 from alembic import context
 from sqlalchemy.orm.decl_api import DeclarativeMeta
-from src import models
+from core import models
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.

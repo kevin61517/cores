@@ -1,6 +1,6 @@
-from src.database import Mixin, db
-from src.models import Test
-from src.service import Service, AsyncService
+from core.database import Mixin, db
+from core.models import Test
+from core.service import Service, AsyncService
 import asyncio
 
 

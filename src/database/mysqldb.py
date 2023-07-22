@@ -6,8 +6,8 @@ from sqlalchemy.orm import sessionmaker, scoped_session
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
 from sqlalchemy import delete, select, update
-from ..constants import MYSQL_URL
-from ..database.base import DBInterface, TableTypes
+from constants import MYSQL_URL
+from src.database.base import DBInterface, TableTypes
 
 
 class _SqlalchemyManager(DBInterface, TableTypes):

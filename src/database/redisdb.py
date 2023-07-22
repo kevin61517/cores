@@ -4,8 +4,8 @@
 from typing import Optional
 from redis import Redis, ConnectionPool
 import aioredis
-from ..database.base import DBInterface
-from ..constants import REDIS_HOST, REDIS_PORT
+from src.database.base import DBInterface
+from constants import REDIS_HOST, REDIS_PORT
 
 
 class _RedisManager(DBInterface):

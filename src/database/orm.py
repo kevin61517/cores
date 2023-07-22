@@ -2,7 +2,7 @@
 ORM
 """
 from typing import Optional
-from ..exceptions import DBOrmError, DBOptionError
+from exceptions import DBOrmError, DBOptionError
 
 
 class ORMObject:

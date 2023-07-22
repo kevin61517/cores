@@ -1,4 +1,4 @@
-from ..database import db, Mixin, ORM
+from src.database import db, Mixin, ORM
 
 
 class TestORM(ORM):

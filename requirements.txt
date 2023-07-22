@@ -1,0 +1,15 @@
+# 資料庫MYSQL
+pymysql==1.0.2
+aiomysql==0.2.0
+sqlalchemy==2.0.15
+mysqlclient==2.1.1
+alembic==1.7.6
+greenlet==2.0.2
+
+# 資料庫REDIS
+redis==4.0.2
+aioredis==2.0.0
+
+# 其他
+delorean==1.0.0
+pytz==2023.3

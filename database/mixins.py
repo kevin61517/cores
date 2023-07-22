@@ -1,8 +1,8 @@
 """
 model mixin
 """
-from database.base import TableTypes as Types
-from utils import taipei_now
+from ..database.base import TableTypes as Types
+from ..utils import taipei_now
 
 
 class Mixin:

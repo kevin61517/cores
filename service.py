@@ -2,8 +2,8 @@
 資料庫查詢封裝
 """
 from typing import Optional
-from database import db, ORMObject
-from exceptions import DBOptionError
+from .database import db, ORMObject
+from .exceptions import DBOptionError
 
 
 class Service:

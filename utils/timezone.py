@@ -1,7 +1,7 @@
 import pytz
 from delorean import Delorean
 from datetime import datetime
-from constants import LOCAL_TZ
+from ..constants import LOCAL_TZ
 
 
 def taipei_now() -> str:

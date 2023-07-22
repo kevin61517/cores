@@ -4,7 +4,7 @@
 from typing import Optional
 from redis import Redis, ConnectionPool
 import aioredis
-from core.database.base import DBInterface
+from ..database.base import DBInterface
 from constants import REDIS_HOST, REDIS_PORT
 
 

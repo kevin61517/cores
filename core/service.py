@@ -2,7 +2,7 @@
 資料庫查詢封裝
 """
 from typing import Optional
-from core.database import db, ORMObject
+from .database import db, ORMObject
 from exceptions import DBOptionError
 
 

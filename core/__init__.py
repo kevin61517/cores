@@ -1,3 +1,3 @@
-from core.database import *
-from core.models import *
-from core.service import *
+from .database import *
+from .models import *
+from .service import *

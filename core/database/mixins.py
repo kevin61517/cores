@@ -1,7 +1,7 @@
 """
 model mixin
 """
-from core.database.base import TableTypes as Types
+from ..database.base import TableTypes as Types
 from utils import taipei_now
 
 
